@@ -1,0 +1,26 @@
+version: "2"
+services:
+  carparkfrontend:
+    image: carparkfrontend
+    ports:
+      - "80:80"
+    restart: always
+    depends_on:
+      - carparkbackend
+    hostname: parkhouse.ch
+  carparkbackend:
+    image: carparkbackend
+    ports:
+      - "8585:80"
+    restart: always
+    depends_on:
+      - carparkdb
+    volumes:
+      - ./appsettings.json:/app/appsettings.json
+    environment:
+      - CONFIG_DIR=/appsettings.json
+  carparkdb:
+    image: mongo
+    ports:
+      - "27017:27017"
+    restart: always
