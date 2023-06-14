@@ -30,15 +30,15 @@ Zur Speicherung der Parkplatzdaten haben wir MongoDB verwendet. Die Schritte zur
 
 ### Screenshot der "Manage Parkhaus"-Ansicht
 
-![Manage Parkhaus](path/to/manage_parkhaus_screenshot.png)
+![Manage Parkhaus](/manage_parkhaus_screenshot.png)
 
 ### Screenshot der "Checkin/Checkout"-Ansicht
 
-![Checkin/Checkout](path/to/checkin_checkout_screenshot.png)
+![Checkin/Checkout](/checkin_checkout_screenshot.png)
 
 ### Diagramm der Architektur
 
-![Architekturdiagramm](path/to/architektur_diagramm.png)
+![Architekturdiagramm](/architektur_diagramm.png)
 
 ## Reflexion und "Lessons Learned"
 
