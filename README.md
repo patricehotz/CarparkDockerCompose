@@ -1,20 +1,53 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Projekt-Dokumentation: Parkhaus-Management-Webapplikation
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+## Schritte zur Umsetzung des Projekts
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+### Backend-Entwicklung mit C# und ASP.NET
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+Für das Backend haben wir C# und ASP.NET verwendet, um eine API zu erstellen, die Anfragen vom Frontend entgegennimmt und verarbeitet. Die Schritte zur Entwicklung des Backends waren wie folgt:
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+1. Einrichtung der Entwicklungsumgebung und Erstellung des Backend-Projekts.
+2. Definition der API-Endpunkte für das Parkhaus-Management und die Check-in/Check-out-Funktionen.
+3. Implementierung der Backend-Logik zur Verarbeitung von Anfragen, Speicherung und Abruf von Daten.
+
+### Frontend-Entwicklung mit Angular
+
+Für das Frontend haben wir Angular verwendet, um die Benutzeroberfläche für die Parkhausverwaltung und das Check-in/Check-out zu erstellen. Die Schritte zur Entwicklung des Frontends waren wie folgt:
+
+1. Einrichtung der Angular-Entwicklungsumgebung und Erstellung des Frontend-Projekts.
+2. Design und Implementierung der "Manage Parkhaus"-Ansicht zum Hinzufügen und Löschen von Parkplätzen und Stockwerken.
+3. Design und Implementierung der "Checkin/Checkout"-Ansicht zur Ein- und Ausparkierung von Autos per Drag & Drop und Anzeige des zu zahlenden Betrags.
+
+### Integration der MongoDB-Datenbank
+
+Zur Speicherung der Parkplatzdaten haben wir MongoDB verwendet. Die Schritte zur Integration der Datenbank waren wie folgt:
+
+1. Einrichtung einer MongoDB-Datenbank und Erstellung der erforderlichen Kollektionen.
+2. Implementierung der Backend-Logik zur Speicherung und Abfrage der Parkplatzdaten in der MongoDB-Datenbank.
+3. Anpassung des Frontends zur Anzeige und Aktualisierung der Daten aus der MongoDB-Datenbank.
+
+## Grafische Darstellungen
+
+### Screenshot der "Manage Parkhaus"-Ansicht
+
+![Manage Parkhaus](path/to/manage_parkhaus_screenshot.png)
+
+### Screenshot der "Checkin/Checkout"-Ansicht
+
+![Checkin/Checkout](path/to/checkin_checkout_screenshot.png)
+
+### Diagramm der Architektur
+
+![Architekturdiagramm](path/to/architektur_diagramm.png)
+
+## Reflexion und "Lessons Learned"
+
+Während des Projekts haben wir wichtige Erkenntnisse gewonnen, die wir in unseren "Lessons Learned" zusammenfassen:
+
+- Startschwierigkeiten: Zu Beginn des Projekts gab es einige Herausforderungen, wie die Einrichtung der Entwicklungsumgebungen und das Erlernen neuer Technologien. Durch intensive Recherche, Teamarbeit und Unterstützung erfahrener Entwickler konnten wir diese Herausforderungen erfolgreich bewältigen.
+
+- Zusammenarbeit: Eine effektive Teamarbeit war entscheidend für den Erfolg des Projekts. Regelmäßige Kommunikation, Aufgabenaufteilung und Code-Reviews trugen zu einer reibungslosen Zusammenarbeit bei.
+
+- Technische Lernerfahrungen: Die Verwendung von C#, ASP.NET, Angular und MongoDB bot uns wertvolle technische Lernerfahrungen. Wir gewannen Einblicke in die Backend-Entwicklung, API-Integration, Drag & Drop-Funktionen in Angular und den Umgang mit der MongoDB-Datenbank.
+
+- Projektmanagement: Eine gute Projektorganisation war wichtig, um den zeitlichen Rahmen und die Anforderungen zu erfüllen. Klare Planung, Meilensteine und regelmäßiges Überprüfen des Fortschritts ermöglichten einen erfolgreichen Abschluss des Projekts.
